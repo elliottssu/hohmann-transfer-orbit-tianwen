@@ -103,18 +103,18 @@ def generateRangeCoord(AX, BX, aFull, bFull, angle, CX, CY):
 
     isReturn = False
 
-    xValue = xBegin - diff * 1.1
+    xValue = xBegin - diff
 
     for item in range(rangeCount):
 
         # 控制偏移速度
-        vDiff = diff * 1.1
+        vDiff = diff
         if xValue > diffSplitC:
-            vDiff = diff * 0.9
-        if xValue > diffSplitB:
             vDiff = diff * 0.7
+        if xValue > diffSplitB:
+            vDiff = diff * 0.5
         if xValue > diffSplitA:
-            vDiff = diff * 0.25
+            vDiff = diff * 0.20
 
         print(xValue, diffSplitA, xValue > diffSplitA, vDiff)
 
