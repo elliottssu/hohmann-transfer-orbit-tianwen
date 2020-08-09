@@ -85,7 +85,8 @@ def equation(x, aFull, bFull, angle, CX, CY):
 
     return [yLow, yHigh]
 
-
+# To do
+# Divide the length of each segment equally according to the circumference of the ellipse
 def generateRangeCoord(AX, BX, aFull, bFull, angle, CX, CY):
     '''
     生成轨道坐标 (此间隔为比较粗糙的模拟，未考虑引力及速度影响)
@@ -115,8 +116,6 @@ def generateRangeCoord(AX, BX, aFull, bFull, angle, CX, CY):
             vDiff = diff * 0.5
         if xValue > diffSplitA:
             vDiff = diff * 0.20
-
-        print(xValue, diffSplitA, xValue > diffSplitA, vDiff)
 
         if isReturn:
             xValue = xValue - vDiff
