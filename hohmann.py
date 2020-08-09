@@ -66,9 +66,5 @@ ax.annotate('End', xy=(DX, DY), xytext=(DX+0.1, DY+0.1))
 ax.set_ylim(-2, 2)
 ax.grid(True)
 
-# 生成轨道数据
-# util.generateRangeCoord(AX, EX, F_aFull, F_bFull,
-#                         F_angle, F_centerX, F_centerY)
-
 
 plt.show()
