@@ -12,7 +12,9 @@ The Tianwen-1 Mars Rover from Earth to Mars uses an improved [hohmann transfer o
 ![Example](./example.png)
 
 ## Get Start 🚀
-`python3 hohmann.py`
+```bash
+$ python3 hohmann.py
+```
 
 For a better experience, please use python3.6 or above.
 
@@ -51,4 +53,4 @@ centerY = k*centerX
 **To do:**
 The distance between the two points on the X axis of the generated point coordinates and the corresponding ellipse arc lengths should be equal, so as to ensure a uniform speed. But this will be more troublesome to implement (currently only roughly divide the interval).
 
-*You can also visit [https://www.ogww.com/tianwen-1](https://www.ogww.com/tianwen-1) for more project details. *
+**You can also visit [https://www.ogww.com/tianwen-1](https://www.ogww.com/tianwen-1) for more project details.**

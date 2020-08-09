@@ -12,7 +12,9 @@
 ![Example](./example.png)
 
 ## 立即开始 🚀
-`python3 hohmann.py`
+```bash
+$ python3 hohmann.py
+```
 
 为了更好的体验，请使用python3.6以上的版本。
 
@@ -51,4 +53,4 @@ centerY = k*centerX
 **To do:**
 生成点的坐标的X轴两个点的间隔，所对应的椭圆弧长，应该是相等的，这样才能保证匀速。但是这样实现起来会比较麻烦（目前只是粗略的划分间隔）。
 
-*您也可以访问 [https://www.ogww.com/tianwen-1](https://www.ogww.com/tianwen-1) 了解更多项目详情。*
+**您也可以访问 [https://www.ogww.com/tianwen-1](https://www.ogww.com/tianwen-1) 了解更多项目详情。**
